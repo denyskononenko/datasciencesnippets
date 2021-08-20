@@ -60,7 +60,7 @@ class Zernike3D:
         cmap = cm.winter
         m = cm.ScalarMappable(norm=norm, cmap=cmap)
         # add color to the point cloud 
-        # return format: x y z r ,g, b, Z_value
+        # return format: x y z r g b Z_value
         Z_point_cloud_colored = np.array([[x, y, z, m.to_rgba(Z_v)[0], m.to_rgba(Z_v)[1], m.to_rgba(Z_v)[2], Z_v] for x, y, z, Z_v in Z_point_cloud])
         
         return Z_point_cloud_colored
