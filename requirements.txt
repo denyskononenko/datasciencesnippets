@@ -1,3 +1,9 @@
 numpy
+pandas
+plotly
+seaborn
 matplotlib
+scikit-learn
+tensorflow
+mayavi
 gym
