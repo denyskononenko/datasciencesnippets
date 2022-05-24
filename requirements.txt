@@ -2,6 +2,7 @@ numpy
 pandas
 plotly
 seaborn
+seaborn-image
 matplotlib
 scikit-learn
 tensorflow
